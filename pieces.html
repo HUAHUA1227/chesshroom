@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>棋子圖鑑 — 菌界棋譜 Chesshroom</title>
+<meta name="description" content="六種棋格角色由真實菇類化身：靈芝國王、墨汁鬼傘皇后、羊肚菌主教、鹿角靈芝騎士、牛肝菌城堡、小圓蘑菇小兵。點開每一枚，閱讀它的造型故事，並切換寫實／幻想兩種配色。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&amp;family=Noto+Serif+TC:wght@300;400;500;600;700&amp;family=Noto+Sans+TC:wght@200;300;400;500;700&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<!-- ===== NAV ===== -->
+<nav id="site-nav" class="site-nav">
+  <a href="index.html" class="site-nav__logo">CHESSHROOM</a>
+  <div class="site-nav__links">
+    <a href="index.html" class="nav-link">首頁</a>
+    <a href="pieces.html" class="nav-link is-active">棋子圖鑑</a>
+    <a href="process.html" class="nav-link">製作過程</a>
+  </div>
+</nav>
+
+<!-- ===== HEADER ===== -->
+<header class="pieces-header">
+  <div class="page-header__intro">
+    <div class="page-header__eyebrow">THE FIELD GUIDE</div>
+    <h1 class="page-header__title">棋子圖鑑</h1>
+    <p class="page-header__lead">七種菇類，化作六種棋格角色。每一枚都從真實菌類的形態出發，再順著它本身的姿態長成棋子。點開任一枚，閱讀它的造型故事。</p>
+  </div>
+
+  <!-- COLORWAY SWITCH -->
+  <div class="colorway">
+    <div class="colorway__group">
+      <span class="colorway__caption">配色切換</span>
+      <div class="colorway__toggle">
+        <div class="colorway__pill" aria-hidden="true"></div>
+        <button type="button" class="colorway__btn is-active" data-cw="real">寫實菇色</button>
+        <button type="button" class="colorway__btn" data-cw="fantasy">幻想毒菇</button>
+      </div>
+    </div>
+    <div class="colorway__info">
+      <div class="colorway__label">寫實菇色配色</div>
+      <div class="colorway__desc">貼近真實菌類的色澤 ── 紅褐、土棕、米白與森林的綠。</div>
+    </div>
+  </div>
+</header>
+
+<!-- ===== GRID ===== -->
+<section class="pieces-grid-section">
+  <div class="pieces-grid">
+    <button type="button" class="piece-tile" data-index="0">
+      <div class="piece-tile__media">
+        <img src="assets/images/king-real.jpg" alt="靈芝國王">
+        <div class="piece-tile__no">I</div>
+        <div class="piece-tile__cwtag">寫實菇色</div>
+      </div>
+      <div class="piece-tile__body">
+        <div class="piece-tile__role">King</div>
+        <div class="piece-tile__name">靈芝國王</div>
+        <div class="piece-tile__en">Reishi / Lingzhi</div>
+        <div class="piece-tile__tag">多層扇形菌蓋自然長成王冠，王者感來自靈芝本身。</div>
+        <div class="piece-tile__cta">查看造型 →</div>
+      </div>
+    </button>
+
+    <button type="button" class="piece-tile" data-index="1">
+      <div class="piece-tile__media">
+        <img src="assets/images/queen-real.jpg" alt="墨汁鬼傘皇后">
+        <div class="piece-tile__no">II</div>
+        <div class="piece-tile__cwtag">寫實菇色</div>
+      </div>
+      <div class="piece-tile__body">
+        <div class="piece-tile__role">Queen</div>
+        <div class="piece-tile__name">墨汁鬼傘皇后</div>
+        <div class="piece-tile__en">Shaggy Ink Cap</div>
+        <div class="piece-tile__tag">長鐘形裙襬與墨滴邊緣，像披著長袍的森林女王。</div>
+        <div class="piece-tile__cta">查看造型 →</div>
+      </div>
+    </button>
+
+    <button type="button" class="piece-tile" data-index="2">
+      <div class="piece-tile__media">
+        <img src="assets/images/bishop-real.jpg" alt="羊肚菌主教">
+        <div class="piece-tile__no">III</div>
+        <div class="piece-tile__cwtag">寫實菇色</div>
+      </div>
+      <div class="piece-tile__body">
+        <div class="piece-tile__role">Bishop</div>
+        <div class="piece-tile__name">羊肚菌主教</div>
+        <div class="piece-tile__en">Morel Mushroom</div>
+        <div class="piece-tile__tag">蜂窩狀菌蓋高而略尖，自然神似主教帽 mitre。</div>
+        <div class="piece-tile__cta">查看造型 →</div>
+      </div>
+    </button>
+
+    <button type="button" class="piece-tile" data-index="3">
+      <div class="piece-tile__media">
+        <img src="assets/images/knight-real.jpg" alt="鹿角靈芝騎士">
+        <div class="piece-tile__no">IV</div>
+        <div class="piece-tile__cwtag">寫實菇色</div>
+      </div>
+      <div class="piece-tile__body">
+        <div class="piece-tile__role">Knight</div>
+        <div class="piece-tile__name">鹿角靈芝騎士</div>
+        <div class="piece-tile__en">Antler Reishi</div>
+        <div class="piece-tile__tag">分枝彎曲成馬頭與馬頸，野性的雕塑感。</div>
+        <div class="piece-tile__cta">查看造型 →</div>
+      </div>
+    </button>
+
+    <button type="button" class="piece-tile" data-index="4">
+      <div class="piece-tile__media">
+        <img src="assets/images/rook-real.jpg" alt="牛肝菌城堡">
+        <div class="piece-tile__no">V</div>
+        <div class="piece-tile__cwtag">寫實菇色</div>
+      </div>
+      <div class="piece-tile__body">
+        <div class="piece-tile__role">Rook</div>
+        <div class="piece-tile__name">牛肝菌城堡</div>
+        <div class="piece-tile__en">Porcini Mushroom</div>
+        <div class="piece-tile__tag">厚實菌柄與寬厚菌蓋，天然堡壘般的低重心。</div>
+        <div class="piece-tile__cta">查看造型 →</div>
+      </div>
+    </button>
+
+    <button type="button" class="piece-tile" data-index="5">
+      <div class="piece-tile__media">
+        <img src="assets/images/pawn-real.jpg" alt="小圓蘑菇小兵">
+        <div class="piece-tile__no">VI</div>
+        <div class="piece-tile__cwtag">寫實菇色</div>
+      </div>
+      <div class="piece-tile__body">
+        <div class="piece-tile__role">Pawn</div>
+        <div class="piece-tile__name">小圓蘑菇小兵</div>
+        <div class="piece-tile__en">Button Mushroom</div>
+        <div class="piece-tile__tag">半球形菌蓋、短厚菌柄，整齊可愛、適合大量列印。</div>
+        <div class="piece-tile__cta">查看造型 →</div>
+      </div>
+    </button>
+  </div>
+</section>
+
+<!-- ===== DETAIL MODAL ===== -->
+<div id="piece-modal" class="modal-backdrop" hidden>
+  <div class="modal-panel">
+    <div class="modal-visual">
+      <img src="" alt="">
+      <div class="modal-visual__no"></div>
+      <div class="modal-visual__tag"></div>
+    </div>
+    <div class="modal-text">
+      <div class="modal-text__role"></div>
+      <h2></h2>
+      <div class="modal-text__en"></div>
+      <p class="modal-text__desc"></p>
+
+      <div class="modal-section">
+        <div class="modal-section__label">角色氣質</div>
+        <div class="modal-qualities"></div>
+      </div>
+
+      <div class="modal-section">
+        <div class="modal-section__label">造型重點</div>
+        <div class="modal-features"></div>
+      </div>
+    </div>
+    <button type="button" class="modal-close" aria-label="關閉">✕</button>
+  </div>
+</div>
+
+<script src="assets/js/main.js"></script>
+<script src="assets/js/pieces.js"></script>
+</body>
+</html>
